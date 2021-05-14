@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap');
 
 * {
     margin: 0;
@@ -7,6 +7,38 @@
 }
 
 body {
-    font-family: Merriweather, sans-serif;
-    font-weight: 400;
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+}
+
+/* Header for club name */
+
+#club-name {
+    color: #006600;
+    letter-spacing: 4px;
+    font-size: 280%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+/* Navigation menu */
+
+#nav-menu {
+    float: right;
+    font-size: 110;
+    letter-spacing: 4px;
+}
+
+#nav-menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#nav-menu a {
+    text-decoration: none;
+}
+
+#nav-menu a:hover {
+    border-bottom: 1px solid #000000;
 }
