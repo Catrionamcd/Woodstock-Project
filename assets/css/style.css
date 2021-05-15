@@ -9,6 +9,7 @@
 body {
     font-family: Lora, sans-serif;
     font-weight: 300;
+    background-color: rgba(243,255, 230, .5) ;
 }
 
 /* Header for club name */
@@ -23,27 +24,11 @@ h1 {
 /* Hero Image */
 
 #hero-image {
-    height:500px;
+    height:350px;
     width: 100%;
     background: url('../images/hero-golfcourse.jpg') no-repeat center center;
 }
 
-/*
-.page-header {
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-*/
-
-/* Header for club name */
-
-h1 {
-    color: #e7eee7;
-    letter-spacing: 2px;
-    font-size: 400%;
-    text-align: center;
-}
 
 /* Navigation menu */
 
@@ -51,6 +36,7 @@ h1 {
     float: right;
     font-size: 110;
     letter-spacing: 4px;
+    top : 0;
 }
 
 #nav-menu li {
@@ -61,10 +47,23 @@ h1 {
 
 #nav-menu a {
     text-decoration: none;
-    color: whitesmoke;
-}
+    color: white;
 }
 
 #nav-menu a:hover {
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid white;
+}
+
+.active {
+    border-bottom: 1px solid white;
+} 
+
+/* Header for club name */
+
+h1 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 450%;
+    text-align: center;
+    padding-top: 75px;
 }
