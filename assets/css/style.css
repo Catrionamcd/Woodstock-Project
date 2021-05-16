@@ -12,21 +12,12 @@ body {
     background-color: rgba(243,255, 230, .5) ;
 }
 
-/* Header for club name */
-/*
-h1 {
-    color: #e7eee7;
-    letter-spacing: 2px;
-    font-size: 400%;
-    text-align: center;
-}
-*/
 /* Hero Image */
 
 #hero-image {
-    height:300px;
+    height: 300px;
     width: 100%;
-    background: url('../images/hero-golfcourse.jpg') no-repeat center top;
+    background: url('../images/rsz_woodstockgolf.jpg') no-repeat center center;
 }
 
 
@@ -65,13 +56,14 @@ h1 {
     letter-spacing: 2px;
     font-size: 400%;
     text-align: center;
-    padding-top: 75px;
+    padding-top: 50px;
 }
 
 /* Club Story Headers & Paragraphs*/
 
 #welcome {
     height: 600px;
+    width: 100%;
 }
 
 #welcome-head {
@@ -81,7 +73,8 @@ h1 {
 
 #club-story {
     width: 40%;
-    padding: 30px 0 0 60px;
+    font-size: 110%;
+    padding: 30px 0 0 60px; 
     float: left;
 }
 
@@ -89,8 +82,29 @@ h1 {
 
 #sunset-golfer {
     width : 40%;
-    padding: 50px 60px;
+    padding: 50px 60px; 
     float: right;
 }
 
+/* Footer with social networks */
 
+footer {
+    height: 150px;
+    width: 100%;
+    background-color: green; 
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 2%;
+    color: white;
+}
