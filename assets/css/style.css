@@ -63,7 +63,7 @@ body {
 
 #page-details {
     height: 600px;
-    background-color: yellow;
+   /*background-color: yellow; */
 }
 
 #club-head {
@@ -83,27 +83,24 @@ body {
 /* Golfer Sunset Image */
 
 #sunset-golfer {
-    width : 40%;
+    width : 500px;
+    height: 500px;
+    /*margin:0 auto;*/
     float: right;
-    margin-right: 40px;
-    padding-top: 50px;    
-    
-    /* Animates zoom effect on loading the page */
-    animation-name: sunset-golfer;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+    /*margin-right: 40px;*/
+    padding-top: 50px;
 }
 
-/* Creates the level of zoom for hero image */
-@keyframes sunset-golfer {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
+#sunset-golfer-pic {
+    
+    height: 70%;
+    width: 70%;
+    border-radius: 10%; 
+      
+    background: url("../images/sunset-golfer.png") no-repeat center center;
+   /*
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2,) 0 6px 20px 0 rgba(0, 0, 0, 0.19);  */
 }
- /*   background-color: lightcoral; */
 
 /* Visitors Information */
 
@@ -112,10 +109,11 @@ body {
 #dress-code {
     float: left;
     width: 35%;
+    height: 350px;
     font-size: 100%;
     padding-top: 30px;  
     margin-left: 100px;
-    background-color: red; 
+    background-color: red;
 }
 
 /* Green Fees */
@@ -123,12 +121,31 @@ body {
  #green-fees {
     float: right;
     width: 35%;
+    height: 350px;
     font-size: 100%;
     padding-top: 30px; 
-    margin-right: 100px;
+    margin-right: 150px;
     text-transform: capitalize;
-    background-color: blue; 
+    background-color: yellow; 
  }
+
+table {
+    width: 80%;
+}
+
+#visitors-img-container {
+    height : 140px;
+    width: 365px;
+    float: left;
+    margin: 30px 0 0 150px;
+}
+
+#visitors-img {
+    width: 100%;
+    height: 100%;
+
+    background: url("../images/claregolf.jpg");
+}
 
 /* Footer with social networks */
 
@@ -157,7 +174,7 @@ footer {
 
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px){
-    #page-head{
+    #page-details{
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -168,11 +185,28 @@ footer {
         margin-top: 0;
     }
 
-    #club-story, #sunset-golfer {
+    #club-story {
         width:100%;
         float:left;
         padding: 0;
     }
+
+    #sunset-golfer {
+            width : 500px;
+            height: 500px;
+            margin:0 auto;
+        /*display: block;
+        margin-left: auto;
+        margin-right: auto;*/
+    }
+
+    /*#sunset-golfer-pic {
+        width: 500px;
+        height: 500px;
+          
+        background: url("../images/sunset-golfer.png") no-repeat center center;
+       
+    }*/
 
 }
 
@@ -187,8 +221,8 @@ footer {
         line-height: 25px;
     }
 
-    #page-head {
-        width:80%;
+    #page-details {
+        width:90%;
         height: 1200px;
         margin: 0 auto;
     }
@@ -197,13 +231,14 @@ footer {
         text-align: center;
     }
 
-    #club-story {
+   /* #club-story {
         text-align: center;
         padding: 0 20px 0 20px;
-    }
+    }*/
 
     #sunset-golfer {
         margin: 0 auto;
+        padding: 20px;
     }
 
 }
