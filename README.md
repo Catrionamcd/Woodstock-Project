@@ -1,11 +1,11 @@
-Woodstock Project
+# Woodstock Project
 
 Woodstock Golf Club
 The Woodstock Golf Club website is an information site about a small local golf club. The objective of the site is to showcase the club and its facilities. 
 There is a brief description of the club and it’s surroundings. It’s location and the level of skill required to play on the club is also described. It is targeted at the existing members, potential new members and visitors to the club.  A navigation bar allows the user access to more details about green fees, membership fees and dress code. There is also an inquiry form for new members.
 Items for sale in the on-site golf shop are displayed with contact  information for purchase. 
 
-Features
+## Features
 
 Homepage
 
