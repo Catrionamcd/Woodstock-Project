@@ -25,7 +25,7 @@ body {
 
 #nav-menu {
     float: right;
-    font-size: 110;
+    font-size: 110%;
     letter-spacing: 2px;
     top : 0;
 }
@@ -120,6 +120,7 @@ body {
     font-size: 100%;
     padding-top: 30px;  
     margin-left: 100px;
+  /*  background-color: red;*/
 }
 
 /* Green Fees */
@@ -132,17 +133,28 @@ body {
     padding-top: 30px; 
     margin-right: 150px;
     text-transform: capitalize;
+    /*background-color: yellow;*/
  }
 
 table {
     width: 80%;
 }
 
+#woodstock-map {
+    width: 400px;
+    height: 300px;
+    float: right;
+    margin-top: -150px;
+    margin-right: 150px;
+    padding-top: 20px; 
+   /* margin-top: 20px; 
+    background-color: indigo;*/
+ }
+
 #visitors-img-container {
     height : 138px;
     width: 360px;
-    float: left;
-    margin: 30px 0 0 100px;
+    margin-left: 150px;
 }
 
 #visitors-img {
@@ -153,45 +165,45 @@ table {
     background: url("../images/claregolf.jpg");
 }
 
-#woodstock-map {
-   width: 400px;
-   height: 300px;
-   float: right;
-   margin-right: 150px;
-}
-
 /*Membership details page */
 
 .membership-details {
-	width: 33%;
+	width: 31%;
     height: 200px;
-	margin: 1rem 0;
+    margin: 1rem, 0;
 	display: inline-block;
     text-align: center;
 }
 
 #student-fees {
-	background-color: rgb(178, 236, 224);
+	border: solid rgb(80, 141, 80);
     position: relative;
     left: 70px;
     top: -15px;
 }  
-#student-fees li {list-style-type: none;}  
+#student-fees li {
+    list-style-type: none;
+}  
 
 #members-fees {
-	background-color: #6f4e37;
+	background-color: rgb(80, 141, 80); 
 	position: relative;
 	z-index: 1;
 }
-#members-fees li {list-style-type: none;}
+#members-fees li {
+    list-style-type: none;
+}
 
 #couples-fees {
-	background-color: rgb(178, 236, 224);
+	border: solid rgb(80, 141, 80); 
     position: relative;
     right: 70px;
     top: -15px;
 }
-#couples-fees li {list-style-type: none;}
+
+#couples-fees li {
+    list-style-type: none;
+}
 
 
 /* Footer with social networks */
@@ -347,8 +359,6 @@ footer {
     /* Green Fees */
 
  #green-fees {
-    
-
     height: 350px;
     font-size: 100%;
     padding-top: 30px; 
@@ -356,8 +366,7 @@ footer {
     margin-top: 10px;
     display: block;
     text-transform: capitalize;
-    /*background-color: yellow; */
- }
+}
 
 }
 
