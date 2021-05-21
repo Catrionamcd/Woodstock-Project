@@ -61,7 +61,7 @@ body {
 
 /* Club Story Headers & Paragraphs*/
 
-#page-details {
+.page-details {
     height: 600px;
    /*background-color: yellow; */
 }
@@ -163,14 +163,6 @@ table {
 
 /*Membership details page */
 
-.members-section {
-    clear: left;
-    background: url("../images/ball&tee.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 600px;
-}
-
 .membership-details {
 	width: 31%;
    /* height: 200px; */
@@ -220,10 +212,10 @@ table {
 
 .signup-form {
     border: solid rgb(80, 141, 80); 
-    margin: 30px 0 0 30px;
+    margin: 30px 0 0 40px;
     color: black;
     background-color: rgba(233, 227, 227, 0.5);
-    max-width: 650px;
+    max-width: 550px;
     position: absolute;
     left: 30px;
     padding: 10px;
@@ -237,9 +229,9 @@ table {
 .text-input {
     background: transparent;
     color: black;
-    width: 35%;
+    width: 80%;
     height: 25px;
-    margin: 5px 0 10px 0;
+    margin: 5px 0 10px 10px;
     border: 1px solid black;
     border-radius: 2px;
 }
@@ -274,7 +266,15 @@ table {
     color: rgb(80, 141, 80); 
 }
 
+/* Contact Page */
 
+.contact-section {
+    clear: left;
+    background: url("../images/ball&tee.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
 
 /* Footer with social networks */
 
