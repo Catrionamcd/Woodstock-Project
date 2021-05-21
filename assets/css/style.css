@@ -276,7 +276,7 @@ table {
 
 #members-img-container {
     height : 300px;
-    width: 400px;
+    width: 425px;
     margin-right: 150px;
     float: right;
 }
@@ -285,18 +285,77 @@ table {
     width: 100%;
     height: 100%;
     
-    background: url("../images/rsz_ballbyhole.jpg") center center;
+    background: url("../images/golf-fairway.jpg");
 }
+
+/* Shop Page */
+
+#golfclubs-img-container {
+    height : 300px;
+    width: 425px;
+    margin-right: 150px;
+    float: right;
+}
+
+#golfclubs-img {
+    width: 100%;
+    height: 100%;
+    
+    background: url("../images/golf-clubs.jpg");
+}
+#golfglove-img-container {
+    height : 300px;
+    width: 425px;
+    margin-right: 150px;
+    float: right;
+}
+
+#golfglove-img {
+    width: 100%;
+    height: 100%;
+    
+    background: url("../images/golf-glove.jpg");
+
+}
+
+#golfshoes-img-container {
+    height : 300px;
+    width: 425px;
+    margin-right: 150px;
+    float: right;
+}
+
+#golfshoes-img {
+    width: 100%;
+    height: 100%;
+    
+    background: url("../images/golf-shoes.jpg");
+
+}
+#golfballs-img-container {
+    height : 300px;
+    width: 425px;
+    margin-right: 150px;
+    float: right;
+}
+
+#golfballs-img {
+    width: 100%;
+    height: 100%;
+    
+    background: url("../images/golf-balls.jpg");
+}
+
 
 /* Contact Page */
 
-.contact-details {
+/* .contact-details {
     clear: left;
     background: url("../images/ball&tee.jpg");
     background-size: cover;
     background-position: center;
     height: 600px;
-}
+} */
 
 /* Footer with social networks */
 
