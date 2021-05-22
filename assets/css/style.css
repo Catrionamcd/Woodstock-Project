@@ -9,14 +9,14 @@
 body {
     font-family: Lora, sans-serif;
     font-weight: 300;
-    background-color: rgba(243,255, 230, .6) ;
 }
 
 /* Hero Image */
 
 #banner-image {
-    height: 300px;
     width: 100%;
+    height: 300px;
+    image-rendering: auto;
     background: url('../images/rsz_woodstockgolf.jpg') no-repeat center center;
 }
 
@@ -49,25 +49,6 @@ body {
     border-bottom: 1px solid white;
 } 
 
-/* Logo for the club */
-
-#club-logo-container {
-    width: 100px;
-    height: 100px;
-    top : 20px;
-    left: 10px;
-    position: absolute;
-    border-radius: 50%;
-}
-
-#club-logo {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-        
-    background: url("../images/rsz_1golf-logo.png") no-repeat center center;
-}
-
 /* Header for club name */
 
 #club-name {
@@ -81,48 +62,62 @@ body {
 /* Club Story Headers & Paragraphs*/
 
 .page-details {
-    height: 600px;
-   /*background-color: yellow; */
+    min-height: calc(100vh - 517px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
 }
-
-/*#member-page-details {
-	padding: 1rem 0;
-	margin-bottom: 80px;
-   /*background-color: yellow;  */
-
 
 #club-head {
     font-size: 200%;
     text-align:center;
-    padding: 20px;
+    padding: 20px;  
+    width: 100%;
+    
+    background-color: darkmagenta;
 }
 
-#club-story {
-    width: 45%;
+.club-story p {
+    padding-top : 10px;
+}
+.club-story {
+    /*display: inline-block;*/
+    width: 55%;
     font-size: 110%;
-    padding-top: 30px; 
-    margin-left: 60px;
-    margin-right: 60px;
-    float: left;
-  /*  background-color: blue; */
+    background-color: darkred;
+   /* vertical-align: top;*/
+    /*padding-top: 30px;*/  
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+    /*float: left;*/
 }
 
 /* Golfer Sunset Image */
 
-#sunset-golfer {
-    width : 500px;
-    height: 500px;
-    float: right;
-    padding-top: 50px;
+.sunset-golfer {
+    width : 350px;
+    height: 350px;
+    margin-right: 20px;
+    /*padding-top: 50px;*/
+    /*float: left;*/
+    /*display: inline-block;*/
+    /*vertical-align:top;*/
+    background-color: yellow;`
+    
 }
 
 #sunset-golfer-pic {
     
-    height: 70%;
-    width: 70%;
-    border-radius: 10%; 
+    height: 100%;
+    width: 100%;
+    border-radius: 25px; 
+    /*vertical-align: top;*/
       
     background: url("../images/sunset-golfer.png") no-repeat center center;
+    background-size:cover;
 }
 
 /* Visitors Information */
@@ -185,8 +180,7 @@ table {
 
 .membership-details {
 	width: 31%;
-   /* height: 200px; */
-   	display: inline-block;
+  	display: inline-block;
     text-align: center;
 }
 
@@ -240,6 +234,7 @@ table {
     position: absolute;
     left: 30px;
     padding: 10px;
+    box-shadow: 5px 10px;
 }
 
 .signup-form > h2 {
@@ -248,7 +243,6 @@ table {
 
 .text-input {
     background: transparent;
-    color: black;
     width: 80%;
     height: 25px;
     margin: 5px 0 10px 10px;
@@ -384,9 +378,10 @@ table {
 /* Footer with social networks */
 
 footer {
-    height: 100px;
+    height: 150px;
     width: 100%;
     background-color: rgb(80, 141, 80); 
+    vertical-align: bottom;
 }
 
 .social-networks {
@@ -406,10 +401,26 @@ footer {
 
 /* Media queries */
 
+@media screen and (max-width: 950px){
+    .club-story {
+        width: 80%;
+
+    }
+}
+
+@media screen and (max-width: 450px){
+    .sunset-golfer {
+        height: 250px;
+        width: 250px;
+    } 
+}
+
+
+
 /* For large to medium screens sizes from 1200px wide and down */
-@media screen and (max-width: 1200px){
-    #page-details{
-        /*width: 65%;*/
+/*@media screen and (max-width: 1200px){
+    .page-details{
+        width: 65%;
         height: 1200px;
         margin: 0 auto;
     }
@@ -419,36 +430,46 @@ footer {
         margin-top: 0;
     }
 
-    #club-story {
+    .club-story {
         width:90%;
-        /*float:left;*/
-        padding: 0;
+        float:left;
+        /*padding: 0;
         margin: 0 auto;
         margin-left: 20px;
         margin-right: 40px;
     }
 
-    #sunset-golfer {
+    .sunset-golfer {
             width : 500px;
             height: 500px;
             margin: 0 auto;
-        /*display: block;
+        display: block;
         margin-left: auto;
-        margin-right: auto;*/
+        margin-right: auto;
     }
 
-    /*#sunset-golfer-pic {
+    #sunset-golfer-pic {
         width: 500px;
         height: 500px;
           
         background: url("../images/sunset-golfer.png") no-repeat center center;
        
-    }*/
+    }
 
-}
+}*/
+
+/* For large to medium screens sizes from 1024px wide and down */
+/*@media screen and (max-width: 1024px){
+    .club-story {
+        width: 520px;
+        font-size: 110%; 
+        display: inline-block;
+    }
+}*/
+
 
 /* For medium screens sizes from 950px wide and down */
-@media screen and (max-width: 950px){
+/*@media screen and (max-width: 950px){
 
     #nav-menu {
         clear: left;
@@ -458,23 +479,19 @@ footer {
         line-height: 25px;
     }
 
-    #page-details {
-        /*width:70%;*/
-        height: 1200px;
-        margin: 0 auto;
-    }
+
     #club-head {
         width: inherit;
         text-align: center;
     }
 
-    #club-story {
-        text-align: center;
-        padding: 0 20px 0 20px;
-        margin-right: 20px;
+    .club-story {
+        width: 340px;
+        font-size: 110%;
+        display: inline-block; 
     }
 
-    #sunset-golfer {
+    /*.sunset-golfer {
         margin: 0 auto;
         padding: 20px;
     }
@@ -511,12 +528,12 @@ footer {
         margin-top: 10px;
         display: block;
 
-    }
+    }*/
 
 /* Media Query for Visitors Information  */
 
     /* Dress Code */
-
+/*
     #dress-code {
 
     width: 90%;
@@ -525,7 +542,7 @@ footer {
     padding-top: 30px;  
     margin-top: 10px;
     margin-left: 30px;
-    display: block;
+    display: block;*/
     /*background-color: red;*/
             }
    /*#dress-code ul{text-align:center;}
@@ -533,7 +550,7 @@ footer {
         float:left;}*/
     /* Green Fees */
 
-   #green-fees {
+ /*  #green-fees {
         height: 350px;
         font-size: 100%;
         padding-top: 30px; 
@@ -541,7 +558,36 @@ footer {
         margin-top: 10px;
         display: block;
         text-transform: capitalize;
-}
+    }*/
 
 }
+/*
+@media screen and (max-width: 768px){
+    .club-story {
+        width: 400px;
+        font-size: 110%;
+        display: block; 
+        display: flex;
+        justify-content: center;
+    
+    }
 
+    .sunset-golfer {
+        width : 350px;
+        height: 350px;
+        display: block;
+        display: flex;
+        justify-content: center;
+
+        
+        background-color: yellow;
+    }
+
+}*/
+
+
+/*@media screen and (min-width: 1500px){
+    .club-story { 
+        display: inline-block;
+    }
+}*/
