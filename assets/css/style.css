@@ -18,6 +18,7 @@ body {
     height: 300px;
     image-rendering: auto;
     background: url('../images/rsz_woodstockgolf.jpg') no-repeat center center;
+    background-color: rgb(144, 175, 23);
 }
 
 
@@ -72,7 +73,8 @@ body {
 #club-head {
     font-size: 200%;
     text-align:center;
-    padding: 20px;  
+    padding-top: 20px; 
+    padding-bottom: 20px;
     width: 100%;
 }
 
@@ -248,7 +250,7 @@ table {
 
 .signup-form > h2 {
     margin-left: 20px;
-    margin-right: 20px
+    margin-right: 20px;
     margin-bottom: 20px;
 }
 
@@ -426,9 +428,6 @@ footer {
 
 /* Media queries */
 
-@media screen and (max-width: 1800px){
-
-}
 
 @media screen and (max-width: 950px){
     .club-story {
@@ -512,180 +511,3 @@ footer {
     }
 
 }
-
-
-
-/* For large to medium screens sizes from 1200px wide and down */
-/*@media screen and (max-width: 1200px){
-    .page-details{
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    #club-head {
-        padding: 30px 0;
-        margin-top: 0;
-    }
-
-    .club-story {
-        width:90%;
-        float:left;
-        /*padding: 0;
-        margin: 0 auto;
-        margin-left: 20px;
-        margin-right: 40px;
-    }
-
-    .sunset-golfer {
-            width : 500px;
-            height: 500px;
-            margin: 0 auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #sunset-golfer-pic {
-        width: 500px;
-        height: 500px;
-          
-        background: url("../images/sunset-golfer.png") no-repeat center center;
-       
-    }
-
-}*/
-
-/* For large to medium screens sizes from 1024px wide and down */
-/*@media screen and (max-width: 1024px){
-    .club-story {
-        width: 520px;
-        font-size: 110%; 
-        display: inline-block;
-    }
-}*/
-
-
-/* For medium screens sizes from 950px wide and down */
-/*@media screen and (max-width: 950px){
-
-    #nav-menu {
-        clear: left;
-        float: left;
-        margin-left: 30px; 
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
-
-    #club-head {
-        width: inherit;
-        text-align: center;
-    }
-
-    .club-story {
-        width: 340px;
-        font-size: 110%;
-        display: inline-block; 
-    }
-
-    /*.sunset-golfer {
-        margin: 0 auto;
-        padding: 20px;
-    }
-
-    .membership-details {
-        height: 200px;
-        text-align: center;
-        display: block;
-    }
-
-    #student-fees {
-        border-style: solid;
-        border-color: rgb(80, 141, 80); 
-        position: static;
-        margin: 0 auto;
-        display: block;
-   
-    }    
-    
-    #members-fees {
-        background-color:rgb(80, 141, 80); 
-        position: static;
-        margin: 0 auto;
-        margin-top: 10px;
-        display: block;
-
-    }
-    
-    #couples-fees {
-        border-style: solid;
-        border-color: rgb(80, 141, 80); 
-        position: static;
-        margin: 0 auto;
-        margin-top: 10px;
-        display: block;
-
-    }*/
-
-/* Media Query for Visitors Information  */
-
-    /* Dress Code */
-/*
-    #dress-code {
-
-    width: 90%;
-    height: 350px;
-    font-size: 100%;
-    padding-top: 30px;  
-    margin-top: 10px;
-    margin-left: 30px;
-    display: block;*/
-    /*background-color: red;*/
-            }
-   /*#dress-code ul{text-align:center;}
-     #dress-code li{
-        float:left;}*/
-    /* Green Fees */
-
- /*  #green-fees {
-        height: 350px;
-        font-size: 100%;
-        padding-top: 30px; 
-        margin: 0 auto;
-        margin-top: 10px;
-        display: block;
-        text-transform: capitalize;
-    }*/
-
-}
-/*
-@media screen and (max-width: 768px){
-    .club-story {
-        width: 400px;
-        font-size: 110%;
-        display: block; 
-        display: flex;
-        justify-content: center;
-    
-    }
-
-    .sunset-golfer {
-        width : 350px;
-        height: 350px;
-        display: block;
-        display: flex;
-        justify-content: center;
-
-        
-        background-color: yellow;
-    }
-
-}*/
-
-
-/*@media screen and (min-width: 1500px){
-    .club-story { 
-        display: inline-block;
-    }
-}*/
