@@ -74,8 +74,6 @@ body {
     text-align:center;
     padding: 20px;  
     width: 100%;
-    
-    background-color: darkmagenta;
 }
 
 .club-story p {
@@ -85,7 +83,6 @@ body {
     /*display: inline-block;*/
     width: 55%;
     font-size: 110%;
-    background-color: darkred;
    /* vertical-align: top;*/
     /*padding-top: 30px;*/  
     margin-left: 20px;
@@ -101,11 +98,11 @@ body {
     width : 350px;
     height: 350px;
     margin-right: 20px;
+    margin-bottom: 20px;
     /*padding-top: 50px;*/
     /*float: left;*/
     /*display: inline-block;*/
     /*vertical-align:top;*/
-    background-color: yellow;`
     
 }
 
@@ -125,12 +122,14 @@ body {
 /* Dress Code */
 
 #dress-code {
-    float: left;
-    width: 35%;
-    height: 350px;
+    /*float: left;*/
+    /*width: 35%;*/
+    /*height: 350px;*/
     font-size: 100%;
-    padding-top: 30px;  
-    margin-left: 150px;
+    /*padding-top: 30px;*/  
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
 }
 
 
@@ -141,37 +140,45 @@ h3, h4 {
 /* Green Fees */
 
  #green-fees {
-    float: right;
-    width: 35%;
-    height: 200px;
+    /*float: right;*/
+    /*width: 35%;*/
+    min-width: 500px;
+    /*flex-basis: 600px;*/
+    /*height: 200px;*/
     font-size: 100%;
-    padding-top: 30px; 
-    margin-right: 150px;
+    /*padding-top: 30px;*/ 
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
     text-transform: capitalize;
 }
 
 table {
-    width: 80%;
+    width: 60%;
 }
 
-#woodstock-map {
+/*#woodstock-map {*/
+#google-frame {
     width: 400px;
-    height: 300px;
-    float: right; 
-    margin-top: -200px;
-    margin-right: 150px;
+    height: 400px;
+    
+    /*float: right;*/ 
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 #visitors-img-container {
     height : 138px;
     width: 360px;
-    margin-left: 150px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
 }
 
 #visitors-img {
     width: 100%;
     height: 100%;
-    float: left;
+    /*float: left;*/
 
     background: url("../images/claregolf.jpg");
 }
@@ -180,7 +187,7 @@ table {
 
 .membership-details {
 	width: 31%;
-  	display: inline-block;
+  	/*display: inline-block;*/
     text-align: center;
 }
 
@@ -220,7 +227,9 @@ table {
 
 #fee-terms {
     text-align: center;
-    padding: 20px;
+    /*padding: 20px;*/
+    margin-top: 30px;
+    flex-basis: 100%;
 }
 
 /* Form */
@@ -228,16 +237,18 @@ table {
 .signup-form {
     border: solid;
     border-color: rgb(80, 141, 80); 
-    margin: 30px 0 0 40px;
+    margin: 40px 40px 40px 40px;
     background-color: rgba(233, 227, 227, 0.5);
     max-width: 550px;
-    position: absolute;
-    left: 30px;
+    /*position: absolute;
+    left: 30px;*/
     padding: 10px;
     box-shadow: 5px 10px;
 }
 
 .signup-form > h2 {
+    margin-left: 20px;
+    margin-right: 20px
     margin-bottom: 20px;
 }
 
@@ -272,7 +283,7 @@ table {
     font-size: 100%;
     background-color: rgb(80, 141, 80); 
     color: #fafafa;
-    float: right;
+    /*float: right;*/
 }
 
 .enquire-button:hover {
@@ -281,10 +292,12 @@ table {
 }
 
 #members-img-container {
-    height : 300px;
-    width: 425px;
-    margin-right: 150px;
-    float: right;
+    height : 350px;
+    width: 640px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    /*float: right;*/
 }
 
 #members-img {
@@ -292,16 +305,26 @@ table {
     height: 100%;
     
     background: url("../images/golf-fairway.jpg") center center;
+    background-size: cover;
 }
 
 /* Shop Page */
 
+#shop-info {
+    font-size: 100%;
+    text-align: center;
+    flex-basis: 100%;
+    margin-bottom: 50px;
+}
+
 #golfclubs-img-container {
     height : 300px;
     width: 300px;
-    padding: 10px;
-    margin-right: 150px;
-    float: right;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    /*float: right;*/
     border-radius: 50%;
 }
 
@@ -309,15 +332,16 @@ table {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    
     background: url("../images/golf-clubs.jpg") center center;
 }
 #golfglove-img-container {
     height : 300px;
     width: 300px;
-    padding: 10px;
-    margin-right: 150px;
-    float: right;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    /*float: right;*/
     border-radius: 50%;
 }
 
@@ -325,7 +349,6 @@ table {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    
     background: url("../images/golf-glove.jpg") center top;
 
 }
@@ -333,26 +356,29 @@ table {
 #golfshoes-img-container {
     height : 300px;
     width: 300px;
-    padding: 10px;
-    margin-right: 150px;
-    float: right;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    /*float: right;*/
     border-radius: 50%;
 }
 
 #golfshoes-img {
     width: 100%;
     height: 100%;
-    border-radius: 50%;
-    
+    border-radius: 50%;  
     background: url("../images/golf-shoes.jpg") right top;
 
 }
 #golfballs-img-container {
     height : 300px;
     width: 300px;
-    padding: 10px;
-    margin-right: 150px;
-    float: right;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    /*float: right;*/
     border-radius: 50%;
 }
 
@@ -360,7 +386,6 @@ table {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    
     background: url("../images/golf-balls.jpg") center;
 }
 
@@ -401,6 +426,10 @@ footer {
 
 /* Media queries */
 
+@media screen and (max-width: 1800px){
+
+}
+
 @media screen and (max-width: 950px){
     .club-story {
         width: 80%;
@@ -408,11 +437,80 @@ footer {
     }
 }
 
+@media screen and (max-width: 765px){
+    #student-fees {
+        position: static;
+    }
+    #members-fees {
+        position: static;
+    }
+    #couples-fees {
+        position: static;
+    }
+
+    #members-img-container {
+        height : 216px;
+        width: 413px;
+    }
+}
+
+
+
+@media screen and (max-width: 600px){
+    #green-fees {
+        min-width: 80%;
+    }
+
+    #golfclubs-img-container {
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+    #golfglove-img-container{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #golfshoes-img-container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #golfballs-img-container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    /*#members-img-container {
+        height : 300px;
+        width: 425px;
+    } */
+}
+
+
 @media screen and (max-width: 450px){
     .sunset-golfer {
         height: 250px;
         width: 250px;
     } 
+
+    #members-img-container {
+        height : 108px;
+        width: 206px;
+    } 
+}
+
+@media screen and (max-width: 374px){
+    #student-fees {
+        position: static;
+        flex-basis: 100%;
+    }
+    #members-fees {
+        position: static;
+        flex-basis: 100%;
+    }
+    #couples-fees {
+        position: static;
+        flex-basis: 100%;
+    }
+
 }
 
 
