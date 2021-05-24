@@ -70,6 +70,14 @@ body {
     align-content: flex-start;
 }
 
+.page-details-vis {
+    min-height: calc(100vh - 517px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-content: flex-start;
+}
+
 #club-head {
     font-size: 200%;
     text-align:center;
@@ -109,24 +117,116 @@ body {
     background-size:cover;
 }
 
+.picture-home {
+    width: 150px;
+    height: 86px;
+    margin:  5px;
+    border-style: solid;
+    border-color: rgb(80, 141, 80); 
+    transition: 1s;
+    background-image: url("../images/homescreen.jpg");
+    background-color: darkred;
+    background-size: cover;
+    order: 3;
+    justify-content: left;
+}
+
+.picture-visitors {
+    width: 150px;
+    height: 86px;
+    margin: 5px;
+    border-style: solid;
+    border-color: rgb(80, 141, 80); 
+    transition: 1s;
+    background-image: url("../images/visitorsscreen.jpg");
+    background-color: darkred;
+    background-size: cover;
+    order: 3;
+    justify-content:flex-start;
+}
+
+.picture-members {
+    width: 150px;
+    height: 86px;
+    margin: 5px;
+    border-style: solid;
+    border-color: rgb(80, 141, 80); 
+    transition: 1s;
+    background-image: url("../images/membersscreen.jpg");
+    background-color: darkred;
+    background-size: cover;
+    order: 3;
+    justify-content:flex-start;
+}
+
+.picture-shop {
+    width: 150px;
+    height: 86px;
+    margin: 5px;
+    border-style: solid;
+    border-color: rgb(80, 141, 80); 
+    transition: 1s;
+    background-image: url("../images/shopscreen.jpg");
+    background-color: darkred;
+    background-size: cover;
+    order: 3;
+    justify-content:flex-start;
+}
+
+.picture-contacts {
+    width: 150px;
+    height: 86px;
+    margin: 5px;
+    border-style: solid;
+    border-color: rgb(80, 141, 80); 
+    transition: 1s;
+    background-image: url("../images/contactsscreen.jpg");
+    background-color: darkred;
+    background-size: cover;
+    order: 3;
+    justify-content:flex-start;
+}
+
+.picture-home:hover {
+    transform: scale(1.5);
+}
+
+.picture-visitors:hover {
+    transform: scale(1.5);
+}
+
+.picture-members:hover {
+    transform: scale(1.5);
+}
+
+.picture-shop:hover {
+    transform: scale(1.5);
+}
+
+.picture-contacts:hover {
+    transform: scale(1.5);
+}
+
+
 /* Visitors Information for the Visitors Page*/
 
 /* Dress Code layout unordered list */
 
 #dress-code {
-    min-width: 500px;
-    font-size: 110%;
-    margin-left: 30px;
-    margin-right: 30px;
+    /*min-width: 500px;*/
+    font-size: 130%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-bottom: 50px;
     border-style: solid;
     border-color: rgb(80, 141, 80); 
     background-color: rgba(233, 227, 227, 0.5);
-    order: 1;
 }
 
 #dress-code li {
-    list-style: none;
+    list-style-position: inside;
     text-indent: 20px;
 }
 
@@ -138,20 +238,23 @@ h3 {
 /* Green Fees layout table*/
 
  #green-fees {
-    min-width: 500px;
-    font-size: 110%;
-    margin-left: 30px;
+    /*min-width: 500px;*/
+    font-size: 130%;
+
+    margin-left: 10px;
     margin-right: 30px;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-bottom: 50px;
     text-transform: capitalize;
     border-style: solid;
     border-color: rgb(80, 141, 80);
     background-color: rgba(233, 227, 227, 0.5); 
-    order: 2;
 }
 
 table {
-    width: 60%;
+    width: 70%;
 }
 
 /* Container for the google map of the location of the club */
@@ -159,10 +262,10 @@ table {
 #google-frame {
     width: 400px;
     height: 400px;    
-    margin-left: 30px;
-    margin-right: 30px;
-    order: 5;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+
 
 #woodstock-map h3 {
     color: rgb(80, 141, 80);
@@ -172,11 +275,11 @@ table {
 /* Container for the golf image & image displayed on Visitors page */
 
 #visitors-img-container {
-    height : 330px;
-    width: 500px;
-    margin-top: 50px;
-    margin-right: 30px; 
-    order: 4; 
+    height : 280px;
+    width: 450px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
 }
 
 #visitors-img {
@@ -184,6 +287,7 @@ table {
     height: 100%;
     border-radius: 15%;
     background: url("../images/ballbyhole.jpg");
+    background-size: cover;
 }
 
 /*Membership details page with breakdown of fees, student, single member & couples
@@ -321,6 +425,7 @@ table {
     height: 0;
     order: 0;
 }
+
 
 #golfclubs-img-container {
     height : 300px;
