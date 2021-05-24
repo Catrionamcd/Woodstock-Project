@@ -60,7 +60,7 @@ body {
     padding-top: 50px;
 }
 
-/* Club Story Headers & Paragraphs*/
+/* Club Story Headers & Paragraphs for Homepage*/
 
 .page-details {
     min-height: calc(100vh - 517px);
@@ -90,7 +90,7 @@ body {
     margin-bottom: 20px;
 }
 
-/* Golfer Sunset Image */
+/* Golfer Sunset Image displayed on Homepage */
 
 .sunset-golfer {
     width : 350px;
@@ -109,9 +109,9 @@ body {
     background-size:cover;
 }
 
-/* Visitors Information */
+/* Visitors Information for the Visitors Page*/
 
-/* Dress Code */
+/* Dress Code layout unordered list */
 
 #dress-code {
     min-width: 500px;
@@ -135,7 +135,7 @@ h3 {
 }
 
 
-/* Green Fees */
+/* Green Fees layout table*/
 
  #green-fees {
     min-width: 500px;
@@ -154,6 +154,8 @@ table {
     width: 60%;
 }
 
+/* Container for the google map of the location of the club */
+
 #google-frame {
     width: 400px;
     height: 400px;    
@@ -166,6 +168,8 @@ table {
     color: rgb(80, 141, 80);
     margin-left: 30px;
 }
+
+/* Container for the golf image & image displayed on Visitors page */
 
 #visitors-img-container {
     height : 330px;
@@ -182,7 +186,8 @@ table {
     background: url("../images/ballbyhole.jpg");
 }
 
-/*Membership details page */
+/*Membership details page with breakdown of fees, student, single member & couples
+  on Member page */
 
 .membership-details {
 	width: 31%;
@@ -229,7 +234,7 @@ table {
     flex-basis: 100%;
 }
 
-/* Form for New Members Enquiry on Membership page*/
+/* Form for New Members Enquiry on Members page*/
 
 .signup-form {
     border: solid;
@@ -285,6 +290,8 @@ table {
     color: rgb(80, 141, 80); 
 }
 
+/* Container for the golf image & golf image on the Members page */
+
 #members-img-container {
     height : 350px;
     width: 640px;
@@ -301,7 +308,7 @@ table {
     background-size: cover;
 }
 
-/* Shop Page */
+/* Shop Page with text & four images which showstock available */
 
 #shop-info {
     font-size: 100%;
@@ -388,7 +395,7 @@ table {
 }
 
 
-/* Contact Page */
+/* Contact Page with text for details */
 
 .contact-details h2 {
     padding-bottom : 10px;
@@ -409,7 +416,7 @@ table {
     margin-bottom: 20px;
 }
 
-/* Image for Contacts Page of Ball by tee */
+/* Container for image & image for Contacts Page of Ball by tee */
 
 .contact-img-container {
     width : 350px;
