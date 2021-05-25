@@ -125,7 +125,6 @@ body {
     border-color: rgb(80, 141, 80); 
     transition: 1s;
     background-image: url("../images/homescreen.jpg");
-    background-color: darkred;
     background-size: cover;
     order: 3;
     justify-content: left;
@@ -139,10 +138,9 @@ body {
     border-color: rgb(80, 141, 80); 
     transition: 1s;
     background-image: url("../images/visitorsscreen.jpg");
-    background-color: darkred;
     background-size: cover;
     order: 3;
-    justify-content:flex-start;
+    justify-content: left;
 }
 
 .picture-members {
@@ -153,10 +151,9 @@ body {
     border-color: rgb(80, 141, 80); 
     transition: 1s;
     background-image: url("../images/membersscreen.jpg");
-    background-color: darkred;
     background-size: cover;
     order: 3;
-    justify-content:flex-start;
+    justify-content: left;
 }
 
 .picture-shop {
@@ -167,10 +164,9 @@ body {
     border-color: rgb(80, 141, 80); 
     transition: 1s;
     background-image: url("../images/shopscreen.jpg");
-    background-color: darkred;
     background-size: cover;
     order: 3;
-    justify-content:flex-start;
+    justify-content: left;
 }
 
 .picture-contacts {
@@ -181,10 +177,9 @@ body {
     border-color: rgb(80, 141, 80); 
     transition: 1s;
     background-image: url("../images/contactsscreen.jpg");
-    background-color: darkred;
     background-size: cover;
     order: 3;
-    justify-content:flex-start;
+    justify-content: left;
 }
 
 .picture-home:hover {
@@ -653,6 +648,17 @@ footer {
     #nav-menu li {
         margin-right: 10px;
     }
+
+    #google-frame {
+        width: 250px;
+        height: 400px;    
+    }
+    
+    #visitors-img-container {
+        height : 280px;
+        width: 250px;
+    } 
+    
     
 }
 
