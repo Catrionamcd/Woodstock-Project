@@ -4,7 +4,7 @@ The Woodstock Golf Club website is an information site about a small local golf 
 There is a brief description of the club and it’s surroundings. It’s location and the level of skill required to play on the club is also described. It is targeted at the existing members, potential new members and visitors to the club.  A navigation bar allows the user access to more details about green fees, membership fees and dress code. There is also an inquiry form for new members.
 Items for sale in the on-site golf shop are displayed with the shop opening hours. There is also a contacts page with contact details.
 
-[Multi Device Screen](https://github.com/Catrionamcd/Woodstock-Project/tree/master/assets/images/multi-device.png)
+![alt text](assets/documentation/multi-device.png)
 
 
 ## Design of Website
@@ -15,6 +15,9 @@ Items for sale in the on-site golf shop are displayed with the shop opening hour
 ## Features
 
 ### Navigation Bar
+
+The navigation bar appears at the top right hand side of all screens and it is identical on each page to allow for easy navigation. The page that is active will have is navigation bar element underlined.
+This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
 
 ### Homepage
