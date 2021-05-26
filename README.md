@@ -1,11 +1,21 @@
 # Woodstock Project
 
-Woodstock Golf Club
 The Woodstock Golf Club website is an information site about a small local golf club. The objective of the site is to showcase the club and its facilities. 
 There is a brief description of the club and it’s surroundings. It’s location and the level of skill required to play on the club is also described. It is targeted at the existing members, potential new members and visitors to the club.  A navigation bar allows the user access to more details about green fees, membership fees and dress code. There is also an inquiry form for new members.
-Items for sale in the on-site golf shop are displayed with contact  information for purchase. 
+Items for sale in the on-site golf shop are displayed with the shop opening hours. There is also a contacts page with contact details.
+
+[Multi Device Screen](https://github.com/Catrionamcd/Woodstock-Project/tree/master/assets/images/multi-device.png)
+
+
+## Design of Website
+### Wireframes
+[Wireframes](https://github.com/Catrionamcd/Woodstock-Project/tree/master/assets/wireframes)
+
 
 ## Features
+
+### Navigation Bar
+
 
 ### Homepage
 
@@ -17,7 +27,6 @@ Founded in 1988, Woodstock is an 18-hole golf course on 155 acres of beautiful f
 The beautiful scenery will give pleasure to golfers and is not too far from the Wild Atlantic Way.
 There is a Golf shop on site and locker & shower facilities.
 
-•	Navigation Bar
 
 ### Visitors Page
 
@@ -56,11 +65,24 @@ Introductory Offer!- €550
 •	Navigation Bar
 
 ### Contacts Page
+### Footer
 
 ## Testing
 
 ## Deployment
 
+The site was deployed to GitHub pages. The steps to deploy the site are :
 
+* Opened GitHub & selected the Woodstock-Project repository from the repositories listed on the left hand side of the screen.
+
+* Within the Woodstock Project repository select the settings button at the top right hand side of the screen.
+
+* In the settings page, scroll down & choose the Github pages. 
+* In the Github page select a source of master as a branch name
+from the source section drop-down menu.
+* Once the branch name is selected click save.
+
+The deployed link will be published at the top of the GitHub page.
+The live link can be found here - https://catrionamcd.github.io/Woodstock-Project/Index.html
 
 
