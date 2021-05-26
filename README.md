@@ -7,7 +7,7 @@ Items for sale in the on-site golf shop are displayed with contact  information 
 
 ## Features
 
-Homepage
+### Homepage
 
 •	Course image
 •	Description of club & facilities
@@ -19,7 +19,7 @@ There is a Golf shop on site and locker & shower facilities.
 
 •	Navigation Bar
 
-Visitors Page
+### Visitors Page
 
 •	Outline of green fees
 Monday - Friday  €20
@@ -32,7 +32,7 @@ Society 20+ golfers   €25
 •	Image to welcome visitors
 •	Navigation Bar
 
-Members Page
+### Members Page
 
 •	Breakdown of annual fees
 Student Membership Fees €250
@@ -49,10 +49,18 @@ Introductory Offer!- €550
 
 •	Navigation Bar
 
-Shop – Gallery
+### Shop – Gallery
 
 •	Images of golf stock sold
 •	Contact information for purchases
 •	Navigation Bar
+
+### Contacts Page
+
+## Testing
+
+## Deployment
+
+
 
 
