@@ -29,9 +29,22 @@ Items for sale in the on-site golf shop are displayed with the shop opening hour
 
 ## User Stories
 * Visitors to the club 
-* Woodstock Golf Club Members
+  * This user would be anyone interested in finding out more about the Woodstock Golf club, where it is
+  located, is it possible to play the course if you are not a member. What is required to play the course,
+  dress code and green fee charges. What time is the course open to visitors.
+  * This user may be somone just visiting the area on holiday and can play the course for fun.
+  * This user may also be part of a group, a society or perhaps a visiting group of golfers from another club or area.
+* Existing Member of the club.
+  * This user is someone who already is a member of the club. They are interested in the membership fees and how they can be paid.
+  * The club member also wants to showcase their club to potential new members and visitor.
+  * The club member wants to extend a welcome to make enquiries about their club.
 * New Members
+  * This website user want to gain information about the club, its facilities and where its located.
+  * They want a way of sending an enquiry to get more informtion.
+  * this user would also like contact details for the club.
 * Shoppers interested in Golf Equipment & Accessories
+  * This user is someone who is interested in what is available for purchase at the club shop.
+  * This user does not have to be a member but can access information about opening hours and where the club is located.
  
  
 ## Design of Website
@@ -75,6 +88,7 @@ Image of the Home Page.
 * The facilities for members are mentioned.
 * There are clickable mini screens of the visitors, members & shop page which
 invites the user to find out more about the club.
+* These mini screen zoom out when the user hovers over the image.
 * Navigation bar also allows the user to access all pages of the site easily.
 
 
@@ -148,7 +162,7 @@ The footer is valuable to the user as it encourages them to keep connected via s
 
 A section that describes all 18 holes on the golf course. A video to showcase the whole course.
 
-A section for booking tee times.
+A section for booking tee times for members of the club.
 
 ## Technology
 
@@ -171,12 +185,17 @@ A section for booking tee times.
 ## Testing
 
 The site for all users :
+* Tested that the club information is clearly laid out and easy to read.
 * Tested for easy navigation throughout the site on all pages. 
-* Criteria for using the club as a visitor is clearly explained through list & table.
-* Google map displays location of golf club and is clickable to google map app.
-* Different members fees broken down clearly.
-* Tested form for required fields and use of Code Institute code to get input fields posted.
-* Tested for responsivness on all devices by using 
+* For the visitor, the criteria for using the club as a visitor is clearly explained through list & table.
+* Google map displays location of golf club and is clickable to google map app for all users.
+* For the members, the different members fees broken down clearly and the club is showcased in an appealing manner
+with an invitation for visitors and new members.
+* For potential new members, tested the enquiry form for required fields and use of Code Institute formdump code to ensure that the information entered
+is posted.
+* Tested for responsivness on all devices by using Chrome dev tools.
+* Also ran the site on multiple devices to ensure that reponsiveness was working properly.
+* Tested that the social networks icons worked when clicked.
 
 
 
@@ -206,4 +225,23 @@ The live link can be found here - https://catrionamcd.github.io/Woodstock-Projec
 
 ## Credits
 
+Woodstock Golf club have an old website which the members find hard to navigate. The information is not clearly laid out and some details about the club are hidden in different pages on the site and are hard to find.
+
+I read through the information on the existing Woodstock Golf Club site. I used the information from the site to display the club story and information about the club more clearly, its location and beautiful surrondings.
+
+I also used the exisitng webite to gather information about the dress code and green fees for vistors and a 
+breakdown of the fees.
+
 ## Media
+
+Images 
+
+Main banner image is curtesy of Woodstock Golf Club.
+
+All other images are from :
+
+[Pexels](https://www.pexels.com/)
+
+[Pixaby](https://pixaby.com/)
+
+
