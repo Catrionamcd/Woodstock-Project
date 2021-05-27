@@ -36,12 +36,12 @@ Items for sale in the on-site golf shop are displayed with the shop opening hour
   * This user may also be part of a group, a society or perhaps a visiting group of golfers from another club or area.
 * Existing Member of the club.
   * This user is someone who already is a member of the club. They are interested in the membership fees and how they can be paid.
-  * The club member also wants to showcase their club to potential new members and visitor.
+  * The club member also wants to showcase their club to potential new members and visitors.
   * The club member wants to extend a welcome to make enquiries about their club.
 * New Members
   * This website user want to gain information about the club, its facilities and where its located.
   * They want a way of sending an enquiry to get more informtion.
-  * this user would also like contact details for the club.
+  * This user would also like contact details for the club.
 * Shoppers interested in Golf Equipment & Accessories
   * This user is someone who is interested in what is available for purchase at the club shop.
   * This user does not have to be a member but can access information about opening hours and where the club is located.
@@ -156,7 +156,8 @@ The footer includes links to the three social media sites which are displayed as
 ![alt text](assets/documentation/Social-links.png)
 
 These links will open to a new tab to allow easy navigation for the user.
-The footer is valuable to the user as it encourages them to keep connected via social media.
+The footer is valuable to the user as it encourages them to keep up to date with information
+about the club via social media.
 
 ## Features Left to Implement
 
@@ -234,7 +235,7 @@ breakdown of the fees.
 
 ## Media
 
-Images 
+### Images 
 
 Main banner image is curtesy of Woodstock Golf Club.
 

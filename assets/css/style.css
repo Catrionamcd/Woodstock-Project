@@ -22,7 +22,7 @@ body {
 }
 
 
-/* Navigation menu */
+/* Navigation menu  at the top of all pages*/
 
 #nav-menu {
     float: right;
@@ -50,7 +50,7 @@ body {
     border-bottom: 1px solid white;
 } 
 
-/* Header for club name */
+/* Header for club name at the top of all pages*/
 
 #club-name {
     color: white;
@@ -117,6 +117,8 @@ body {
     background-size:cover;
 }
 
+/* Text about more information on the site with mini pictures of more pages
+   When user hovers over a screen, the screen will zoom out */
 #site-info-text {
     font-size: 110%;
     color: rgb(80, 141, 80);
@@ -129,33 +131,6 @@ body {
 .picture-vistors > h3 {
     color: rgb(80, 141, 80);
  }
-
-.picture-home {
-    width: 150px;
-    height: 86px;
-    margin:  10px;
-    border-style: solid;
-    border-color: rgb(80, 141, 80); 
-    transition: 1s;
-    background-image: url("../images/homescreen.jpg");
-    background-size: cover;
-}
-
-.picture-temp {
-    width: 150px;
-    height: 86px;
-    margin: 10px;
-    border-style: solid;
-    border-color: rgb(80, 141, 80); 
-    transition: 1s;
-    background-image: url("../images/visitorsscreen.jpg");
-    /*background-color: darkred;*/
-    background-size: cover;
-
-}
-.picture-temp:hover {
-    transform: scale(1.5);
-}
 
 .picture-visitors {
     width: 150px;
@@ -190,23 +165,6 @@ body {
     background-size: cover;
 }
 
-.picture-contacts {
-    width: 150px;
-    height: 86px;
-    margin: 10px;
-    border-style: solid;
-    border-color: rgb(80, 141, 80); 
-    transition: 1s;
-    background-image: url("../images/contactsscreen.jpg");
-    background-size: cover;
-    order: 5;
-    justify-content: left;
-}
-
-.picture-home:hover {
-    transform: scale(1.5);
-}
-
 .picture-visitors:hover {
     transform: scale(1.5);
 }
@@ -219,17 +177,11 @@ body {
     transform: scale(1.5);
 }
 
-.picture-contacts:hover {
-    transform: scale(1.5);
-}
-
-
 /* Visitors Information for the Visitors Page*/
 
 /* Dress Code layout unordered list */
 
 #dress-code {
-    /*min-width: 500px;*/
     font-size: 130%;
     margin-left: 10px;
     margin-right: 10px;
@@ -254,7 +206,6 @@ h3 {
 /* Green Fees layout table*/
 
  #green-fees {
-    /*min-width: 500px;*/
     font-size: 130%;
 
     margin-left: 10px;
@@ -428,7 +379,7 @@ table {
     background-size: cover;
 }
 
-/* Shop Page with text & four images which showstock available */
+/* Shop Page with text & four images which shows stock available */
 
 #shop-info {
     font-size: 100%;
@@ -586,7 +537,7 @@ footer {
     color: white;
 }
 
-/* Media queries */
+/* Media queries for large & small screens */
 
 @media screen and (max-width: 1800px){
     #empty-row {
