@@ -150,10 +150,13 @@ A section that describes all 18 holes on the golf course. A video to showcase th
 
 A section for booking tee times.
 
-## Technolgies Used
+## Technology
+
+### Languages Used
 
 * HTML5
 * CSS3
+### Technolgies Used
 * Git
 * GitHub
 * Fontawesome
@@ -162,6 +165,7 @@ A section for booking tee times.
 * Balsamiq
 * PicResize
 * Paint 3D
+* Lighthouse
 * Google Chrome Dev Tools
 
 ## Testing
